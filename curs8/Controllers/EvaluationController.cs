@@ -11,9 +11,9 @@ namespace curs8.Controllers
     {
         static List<ProjectEvaluation> ListOfProject = new List<ProjectEvaluation>()
          {
-             new ProjectEvaluation() { Name = "John Doe", City = "Cluj-Napoca", Country = "Romania", Rating = 5 },
-             new ProjectEvaluation() { Name = "Maria Enescu", City = "<script> alert('xss'); </script>", Country = "Romania", Rating = 5 },
-             new ProjectEvaluation() { Name = "George Popescu", City = "Iasi", Country = "Romania", Rating = 5 }
+             new ProjectEvaluation() { Name = "John Doe", City = "Cluj-Napoca", Country = "Romania", Rating = 11 },
+             new ProjectEvaluation() { Name = "Maria Enescu", City = "<script> alert('xss'); </script>", Country = "Romania", Rating = 14},
+             new ProjectEvaluation() { Name = "George Popescu", City = "Iasi", Country = "Romania", Rating = 16 }
         };
 
     // GET: Evaluation
