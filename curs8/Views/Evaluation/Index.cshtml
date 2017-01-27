@@ -21,7 +21,7 @@
             @Html.DisplayNameFor(model => model.Country)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Rating)
+            @Html.DisplayNameFor(model => model.Rating)s
         </th>
         <th></th>
     </tr>
@@ -32,7 +32,8 @@
             @Html.DisplayFor(modelItem => item.Name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.City)
+           <!-- @Html.DisplayFor(modelItem => item.City) -->
+            @Html.Raw(item.City)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Country)
